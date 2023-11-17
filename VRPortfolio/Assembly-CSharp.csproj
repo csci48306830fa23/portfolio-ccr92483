@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\SpawnedCube.cs" />
     <Compile Include="Assets\Scripts\VRHand.cs" />
     <Compile Include="Assets\Scripts\SpawnedCapsule.cs" />
+    <Compile Include="Assets\laserBeam.cs" />
     <Compile Include="Assets\Scripts\SpawnedSphere.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -737,6 +738,9 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="VelUtils">
+      <HintPath>Library\ScriptAssemblies\VelUtils.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
@@ -757,9 +761,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="VelUtils">
-      <HintPath>Library\ScriptAssemblies\VelUtils.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
