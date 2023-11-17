@@ -1293,7 +1293,8 @@
         1285,
         1286,
         1287,
-        1288
+        1288,
+        1289
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -27200,6 +27201,21 @@
       "DebugActionIndex": 1167
     },
     {
+      "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/icallsummary.txt",
+      "DisplayName": "Copying icallsummary.txt",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/Android/ManagedStripped/icallsummary.txt"
+      ],
+      "Outputs": [
+        "C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/icallsummary.txt"
+      ],
+      "ToBuildDependencies": [
+        13
+      ],
+      "DebugActionIndex": 1168
+    },
+    {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/ICSharpCode.SharpZipLib.dll",
       "DisplayName": "Copying ICSharpCode.SharpZipLib.dll",
       "ActionType": "CopyFiles",
@@ -27212,7 +27228,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1168
+      "DebugActionIndex": 1169
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Microsoft.CSharp.dll",
@@ -27227,7 +27243,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1169
+      "DebugActionIndex": 1170
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Mono.Security.dll",
@@ -27242,7 +27258,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1170
+      "DebugActionIndex": 1171
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/mscorlib.dll",
@@ -27257,7 +27273,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1171
+      "DebugActionIndex": 1172
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Newtonsoft.Json.dll",
@@ -27272,7 +27288,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1172
+      "DebugActionIndex": 1173
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Newtonsoft.Json.pdb",
@@ -27287,7 +27303,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1173
+      "DebugActionIndex": 1174
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Configuration.dll",
@@ -27302,7 +27318,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1174
+      "DebugActionIndex": 1175
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Core.dll",
@@ -27317,7 +27333,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1175
+      "DebugActionIndex": 1176
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Data.dll",
@@ -27332,7 +27348,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1176
+      "DebugActionIndex": 1177
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.dll",
@@ -27347,7 +27363,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1177
+      "DebugActionIndex": 1178
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Numerics.dll",
@@ -27362,7 +27378,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1178
+      "DebugActionIndex": 1179
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Runtime.Serialization.dll",
@@ -27377,7 +27393,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1179
+      "DebugActionIndex": 1180
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Xml.dll",
@@ -27392,7 +27408,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1180
+      "DebugActionIndex": 1181
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Xml.Linq.dll",
@@ -27407,7 +27423,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1181
+      "DebugActionIndex": 1182
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InputSystem.dll",
@@ -27422,7 +27438,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1182
+      "DebugActionIndex": 1183
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InputSystem.ForUI.dll",
@@ -27437,7 +27453,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1183
+      "DebugActionIndex": 1184
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InputSystem.ForUI.pdb",
@@ -27452,7 +27468,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1184
+      "DebugActionIndex": 1185
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InputSystem.pdb",
@@ -27467,7 +27483,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1185
+      "DebugActionIndex": 1186
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.TextMeshPro.dll",
@@ -27482,7 +27498,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1186
+      "DebugActionIndex": 1187
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.TextMeshPro.pdb",
@@ -27497,7 +27513,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1187
+      "DebugActionIndex": 1188
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Management.dll",
@@ -27512,7 +27528,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1188
+      "DebugActionIndex": 1189
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Management.pdb",
@@ -27527,7 +27543,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1189
+      "DebugActionIndex": 1190
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Oculus.dll",
@@ -27542,7 +27558,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1190
+      "DebugActionIndex": 1191
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Oculus.pdb",
@@ -27557,7 +27573,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1191
+      "DebugActionIndex": 1192
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -27572,7 +27588,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1192
+      "DebugActionIndex": 1193
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AndroidJNIModule.pdb",
@@ -27587,7 +27603,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1193
+      "DebugActionIndex": 1194
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AnimationModule.dll",
@@ -27602,7 +27618,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1194
+      "DebugActionIndex": 1195
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AnimationModule.pdb",
@@ -27617,7 +27633,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1195
+      "DebugActionIndex": 1196
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AudioModule.dll",
@@ -27632,7 +27648,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1196
+      "DebugActionIndex": 1197
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AudioModule.pdb",
@@ -27647,7 +27663,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1197
+      "DebugActionIndex": 1198
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.dll",
@@ -27662,7 +27678,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1198
+      "DebugActionIndex": 1199
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.pdb",
@@ -27677,7 +27693,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1199
+      "DebugActionIndex": 1200
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.dll",
@@ -27692,7 +27708,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1200
+      "DebugActionIndex": 1201
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.GridModule.dll",
@@ -27707,7 +27723,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1201
+      "DebugActionIndex": 1202
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.GridModule.pdb",
@@ -27722,7 +27738,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1202
+      "DebugActionIndex": 1203
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.IMGUIModule.dll",
@@ -27737,7 +27753,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1203
+      "DebugActionIndex": 1204
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.IMGUIModule.pdb",
@@ -27752,7 +27768,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1204
+      "DebugActionIndex": 1205
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputLegacyModule.dll",
@@ -27767,7 +27783,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1205
+      "DebugActionIndex": 1206
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputLegacyModule.pdb",
@@ -27782,7 +27798,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1206
+      "DebugActionIndex": 1207
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputModule.dll",
@@ -27797,7 +27813,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1207
+      "DebugActionIndex": 1208
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputModule.pdb",
@@ -27812,7 +27828,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1208
+      "DebugActionIndex": 1209
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -27827,7 +27843,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1209
+      "DebugActionIndex": 1210
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.JSONSerializeModule.pdb",
@@ -27842,7 +27858,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1210
+      "DebugActionIndex": 1211
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.pdb",
@@ -27857,7 +27873,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1211
+      "DebugActionIndex": 1212
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Physics2DModule.dll",
@@ -27872,7 +27888,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1212
+      "DebugActionIndex": 1213
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Physics2DModule.pdb",
@@ -27887,7 +27903,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1213
+      "DebugActionIndex": 1214
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PhysicsModule.dll",
@@ -27902,7 +27918,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1214
+      "DebugActionIndex": 1215
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PhysicsModule.pdb",
@@ -27917,7 +27933,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1215
+      "DebugActionIndex": 1216
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PropertiesModule.dll",
@@ -27932,7 +27948,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1216
+      "DebugActionIndex": 1217
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PropertiesModule.pdb",
@@ -27947,7 +27963,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1217
+      "DebugActionIndex": 1218
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -27962,7 +27978,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1218
+      "DebugActionIndex": 1219
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SharedInternalsModule.pdb",
@@ -27977,7 +27993,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1219
+      "DebugActionIndex": 1220
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpatialTracking.dll",
@@ -27992,7 +28008,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1220
+      "DebugActionIndex": 1221
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpatialTracking.pdb",
@@ -28007,7 +28023,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1221
+      "DebugActionIndex": 1222
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -28022,7 +28038,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1222
+      "DebugActionIndex": 1223
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpriteShapeModule.pdb",
@@ -28037,7 +28053,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1223
+      "DebugActionIndex": 1224
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SubsystemsModule.dll",
@@ -28052,7 +28068,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1224
+      "DebugActionIndex": 1225
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SubsystemsModule.pdb",
@@ -28067,7 +28083,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1225
+      "DebugActionIndex": 1226
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -28082,7 +28098,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1226
+      "DebugActionIndex": 1227
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreFontEngineModule.pdb",
@@ -28097,7 +28113,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1227
+      "DebugActionIndex": 1228
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -28112,7 +28128,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1228
+      "DebugActionIndex": 1229
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreTextEngineModule.pdb",
@@ -28127,7 +28143,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1229
+      "DebugActionIndex": 1230
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextRenderingModule.dll",
@@ -28142,7 +28158,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1230
+      "DebugActionIndex": 1231
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextRenderingModule.pdb",
@@ -28157,7 +28173,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1231
+      "DebugActionIndex": 1232
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TilemapModule.dll",
@@ -28172,7 +28188,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1232
+      "DebugActionIndex": 1233
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TilemapModule.pdb",
@@ -28187,7 +28203,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1233
+      "DebugActionIndex": 1234
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UI.dll",
@@ -28202,7 +28218,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1234
+      "DebugActionIndex": 1235
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UI.pdb",
@@ -28217,7 +28233,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1235
+      "DebugActionIndex": 1236
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsModule.dll",
@@ -28232,7 +28248,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1236
+      "DebugActionIndex": 1237
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsModule.pdb",
@@ -28247,7 +28263,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1237
+      "DebugActionIndex": 1238
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIModule.dll",
@@ -28262,7 +28278,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1238
+      "DebugActionIndex": 1239
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIModule.pdb",
@@ -28277,7 +28293,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1239
+      "DebugActionIndex": 1240
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -28292,7 +28308,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1240
+      "DebugActionIndex": 1241
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestModule.pdb",
@@ -28307,7 +28323,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1241
+      "DebugActionIndex": 1242
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.VRModule.dll",
@@ -28322,7 +28338,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1242
+      "DebugActionIndex": 1243
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.VRModule.pdb",
@@ -28337,7 +28353,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1243
+      "DebugActionIndex": 1244
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.XRModule.dll",
@@ -28352,7 +28368,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1244
+      "DebugActionIndex": 1245
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.XRModule.pdb",
@@ -28367,7 +28383,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1245
+      "DebugActionIndex": 1246
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityLinkerToEditorData.json",
@@ -28382,7 +28398,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1246
+      "DebugActionIndex": 1247
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/VelUtils.dll",
@@ -28397,7 +28413,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1247
+      "DebugActionIndex": 1248
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/VelUtils.pdb",
@@ -28412,7 +28428,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1248
+      "DebugActionIndex": 1249
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/VelUtils.VRInteraction.dll",
@@ -28427,7 +28443,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1249
+      "DebugActionIndex": 1250
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/VelUtils.VRInteraction.pdb",
@@ -28442,7 +28458,7 @@
       "ToBuildDependencies": [
         13
       ],
-      "DebugActionIndex": 1250
+      "DebugActionIndex": 1251
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity default resources",
@@ -28454,7 +28470,7 @@
       "Outputs": [
         "C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity default resources"
       ],
-      "DebugActionIndex": 1251
+      "DebugActionIndex": 1252
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/build.gradle_qaor.info",
@@ -28467,7 +28483,7 @@
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/build.gradle_qaor.info"
       ],
-      "DebugActionIndex": 1252
+      "DebugActionIndex": 1253
     },
     {
       "Annotation": "ActionGenerateProjectFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/build.gradle (+8 others)",
@@ -28503,12 +28519,12 @@
         "C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/gradle/wrapper/gradle-wrapper.properties"
       ],
       "ToBuildDependencies": [
-        1252
+        1253
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1253
+      "DebugActionIndex": 1254
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java",
@@ -28520,7 +28536,7 @@
       "Outputs": [
         "C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java"
       ],
-      "DebugActionIndex": 1254
+      "DebugActionIndex": 1255
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar",
@@ -28532,7 +28548,7 @@
       "Outputs": [
         "C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar"
       ],
-      "DebugActionIndex": 1255
+      "DebugActionIndex": 1256
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/ids.xml",
@@ -28544,7 +28560,7 @@
       "Outputs": [
         "C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/ids.xml"
       ],
-      "DebugActionIndex": 1256
+      "DebugActionIndex": 1257
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v21/styles.xml",
@@ -28556,7 +28572,7 @@
       "Outputs": [
         "C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v21/styles.xml"
       ],
-      "DebugActionIndex": 1257
+      "DebugActionIndex": 1258
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v28/styles.xml",
@@ -28568,7 +28584,7 @@
       "Outputs": [
         "C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v28/styles.xml"
       ],
-      "DebugActionIndex": 1258
+      "DebugActionIndex": 1259
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/styles.xml",
@@ -28580,7 +28596,7 @@
       "Outputs": [
         "C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/styles.xml"
       ],
-      "DebugActionIndex": 1259
+      "DebugActionIndex": 1260
     },
     {
       "Annotation": "WriteText C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml",
@@ -28593,7 +28609,7 @@
       "Outputs": [
         "C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml"
       ],
-      "DebugActionIndex": 1260
+      "DebugActionIndex": 1261
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v30/freeformwindow.xml",
@@ -28605,7 +28621,7 @@
       "Outputs": [
         "C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v30/freeformwindow.xml"
       ],
-      "DebugActionIndex": 1261
+      "DebugActionIndex": 1262
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/freeformwindow.xml",
@@ -28617,7 +28633,7 @@
       "Outputs": [
         "C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/freeformwindow.xml"
       ],
-      "DebugActionIndex": 1262
+      "DebugActionIndex": 1263
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml",
@@ -28629,7 +28645,7 @@
       "Outputs": [
         "C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml"
       ],
-      "DebugActionIndex": 1263
+      "DebugActionIndex": 1264
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml",
@@ -28641,7 +28657,7 @@
       "Outputs": [
         "C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml"
       ],
-      "DebugActionIndex": 1264
+      "DebugActionIndex": 1265
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png",
@@ -28653,7 +28669,7 @@
       "Outputs": [
         "C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png"
       ],
-      "DebugActionIndex": 1265
+      "DebugActionIndex": 1266
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png",
@@ -28665,7 +28681,7 @@
       "Outputs": [
         "C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png"
       ],
-      "DebugActionIndex": 1266
+      "DebugActionIndex": 1267
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
@@ -28677,7 +28693,7 @@
       "Outputs": [
         "C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
       ],
-      "DebugActionIndex": 1267
+      "DebugActionIndex": 1268
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libmain.so",
@@ -28689,7 +28705,7 @@
       "Outputs": [
         "C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libmain.so"
       ],
-      "DebugActionIndex": 1268
+      "DebugActionIndex": 1269
     },
     {
       "Annotation": "SourceBuildPlayerFiles",
@@ -28697,11 +28713,11 @@
       "Inputs": [],
       "Outputs": [],
       "ToBuildDependencies": [
-        1268,
-        1281
+        1269,
+        1282
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 1269
+      "DebugActionIndex": 1270
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info",
@@ -28714,7 +28730,7 @@
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info"
       ],
-      "DebugActionIndex": 1270
+      "DebugActionIndex": 1271
     },
     {
       "Annotation": "Generate Manifests Library/Bee/artifacts/Android/Manifest/LauncherManifestDiag.txt (+3 others)",
@@ -28836,12 +28852,12 @@
         105,
         107,
         109,
-        1270
+        1271
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1271
+      "DebugActionIndex": 1272
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityClassRegistration.cpp_q4d3.info",
@@ -28854,7 +28870,7 @@
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityClassRegistration.cpp_q4d3.info"
       ],
-      "DebugActionIndex": 1272
+      "DebugActionIndex": 1273
     },
     {
       "Annotation": "ClassRegistrationGenerator C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/artifacts/Android/il2cppOutput/UnityClassRegistration.cpp",
@@ -28905,12 +28921,12 @@
       ],
       "ToBuildDependencies": [
         13,
-        1272
+        1273
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1273
+      "DebugActionIndex": 1274
     },
     {
       "Annotation": "Compile UnityClassRegistration Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityClassRegistration.o",
@@ -28925,11 +28941,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityClassRegistration.o"
       ],
       "ToBuildDependencies": [
-        1273
+        1274
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1274
+      "DebugActionIndex": 1275
     },
     {
       "Annotation": "ICallRegistrationGenerator C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/artifacts/Android/il2cppOutput/UnityICallRegistration.cpp",
@@ -28970,7 +28986,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1275
+      "DebugActionIndex": 1276
     },
     {
       "Annotation": "Compile UnityICallRegistration Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityICallRegistration.o",
@@ -28985,11 +29001,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityICallRegistration.o"
       ],
       "ToBuildDependencies": [
-        1275
+        1276
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1276
+      "DebugActionIndex": 1277
     },
     {
       "Annotation": "Link libunity Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so",
@@ -29007,12 +29023,12 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        1274,
-        1276
+        1275,
+        1277
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1277
+      "DebugActionIndex": 1278
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so from Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so",
@@ -29026,11 +29042,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so"
       ],
       "ToBuildDependencies": [
-        1277
+        1278
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1278
+      "DebugActionIndex": 1279
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so from Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so",
@@ -29044,11 +29060,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so"
       ],
       "ToBuildDependencies": [
-        1278
+        1279
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1279
+      "DebugActionIndex": 1280
     },
     {
       "Annotation": "Stripping Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so -> Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so",
@@ -29062,11 +29078,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        1277
+        1278
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1280
+      "DebugActionIndex": 1281
     },
     {
       "Annotation": "Adding note Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so -> C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so",
@@ -29082,12 +29098,12 @@
         "C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so"
       ],
       "ToBuildDependencies": [
-        1279,
-        1280
+        1280,
+        1281
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1281
+      "DebugActionIndex": 1282
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libmain.so",
@@ -29099,7 +29115,7 @@
       "Outputs": [
         "C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libmain.so"
       ],
-      "DebugActionIndex": 1282
+      "DebugActionIndex": 1283
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libil2cpp.so",
@@ -29114,7 +29130,7 @@
       "ToBuildDependencies": [
         764
       ],
-      "DebugActionIndex": 1283
+      "DebugActionIndex": 1284
     },
     {
       "Annotation": "CopyFiles C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libunity.so",
@@ -29127,9 +29143,9 @@
         "C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libunity.so"
       ],
       "ToBuildDependencies": [
-        1279
+        1280
       ],
-      "DebugActionIndex": 1284
+      "DebugActionIndex": 1285
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/unity_app_guid_vwvx.info",
@@ -29142,7 +29158,7 @@
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/unity_app_guid_vwvx.info"
       ],
-      "DebugActionIndex": 1285
+      "DebugActionIndex": 1286
     },
     {
       "Annotation": "GuidGenerator C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid",
@@ -29175,12 +29191,12 @@
       "ToBuildDependencies": [
         5,
         110,
-        1285
+        1286
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1286
+      "DebugActionIndex": 1287
     },
     {
       "Annotation": "WriteText C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint",
@@ -29193,7 +29209,7 @@
       "Outputs": [
         "C:/Users/cathe/OneDrive/Documents/GitHub/portfolio-ccr92483/VRPortfolio/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint"
       ],
-      "DebugActionIndex": 1287
+      "DebugActionIndex": 1288
     },
     {
       "Annotation": "Player",
@@ -29739,7 +29755,7 @@
         1249,
         1250,
         1251,
-        1253,
+        1252,
         1254,
         1255,
         1256,
@@ -29755,13 +29771,14 @@
         1266,
         1267,
         1268,
-        1271,
-        1281,
-        1286,
-        1287
+        1269,
+        1272,
+        1282,
+        1287,
+        1288
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 1288
+      "DebugActionIndex": 1289
     }
   ],
   "FileSignatures": [
@@ -30555,8 +30572,8 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "SourceBuildPlayerFiles": 1269,
-          "Player": 1288
+          "SourceBuildPlayerFiles": 1270,
+          "Player": 1289
         }
 ,  "DefaultNodes": [
     0

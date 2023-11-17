@@ -8,7 +8,6 @@ ScriptsOnlyBuild:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
-    - UnityEditor.XR.Management.XRManagerSettingsEditor
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
@@ -23,6 +22,7 @@ ScriptsOnlyBuild:
     - UnityEngine.SpatialTracking.TrackedPoseDriver
     VelUtils.VRInteraction.dll:
     - VelUtils.VRInteraction.VRGrabbableHand
+    - VelUtils.VRInteraction.VRMoveable
     VelUtils.dll:
     - VelUtils.InputMan
     - VelUtils.InputModuleUnity
@@ -69,23 +69,25 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16568}
+      Script: {instanceID: 16578}
     - Class: 114
-      Script: {instanceID: 26152}
+      Script: {instanceID: 16730}
     - Class: 114
-      Script: {instanceID: 26212}
+      Script: {instanceID: 17238}
     - Class: 114
-      Script: {instanceID: 35182}
+      Script: {instanceID: 18944}
     - Class: 114
-      Script: {instanceID: 35216}
+      Script: {instanceID: 20332}
     - Class: 114
-      Script: {instanceID: 35304}
+      Script: {instanceID: 20518}
     - Class: 114
-      Script: {instanceID: 35326}
+      Script: {instanceID: 22996}
     - Class: 114
-      Script: {instanceID: 35334}
+      Script: {instanceID: 23058}
     - Class: 114
-      Script: {instanceID: 35342}
+      Script: {instanceID: 55964}
+    - Class: 114
+      Script: {instanceID: 55966}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -103,10 +105,28 @@ ScriptsOnlyBuild:
     className: TrackedPoseDriver
   - hash:
       serializedVersion: 2
+      Hash: 6a356b04c25c0bb008c1b24bf8b0f996
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 0b7995e6c59201aa9b4ad6a0aecb4621
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UIElements
     className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 440c8dffc65a97ee03753529a5c85f8a
+    assemblyName: WorldMouse
+    namespaceName: VelUtils.Interaction.WorldMouse
+    className: WorldMouse
   - hash:
       serializedVersion: 2
       Hash: 16c8cbd24a32f9d6625615e0e9098073
@@ -121,6 +141,12 @@ ScriptsOnlyBuild:
     className: PlayerInput
   - hash:
       serializedVersion: 2
+      Hash: 4c22890dbdb707b8a946a470cc71aedb
+    assemblyName: VelUtils.VRInteraction
+    namespaceName: VelUtils.VRInteraction
+    className: VRGrabbableJustSendEvent
+  - hash:
+      serializedVersion: 2
       Hash: 01bf6cc4f89c612b67e4917c31a0d32e
     assemblyName: UnityEngine.XR.LegacyInputHelpers
     namespaceName: UnityEngine.XR.LegacyInputHelpers
@@ -131,6 +157,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Oculus
     namespaceName: Unity.XR.Oculus
     className: OculusSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 5c30150dbc0dc1643d835176a7189882
+    assemblyName: VelUtils
+    namespaceName: VelUtils
+    className: InputMan
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -194,9 +226,27 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: VelUtils
+    namespaceName: VelUtils
+    className: ControllerHelpTester
+  - hash:
+      serializedVersion: 2
+      Hash: d25ee5dd1a375857c99926dfd41f79cc
+    assemblyName: VelUtils.VRInteraction
+    namespaceName: VelUtils.VRInteraction
+    className: VRMoveable
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 54d1b6018bcebf5d43b41f7e1a85c343
+    assemblyName: VelUtils.VRInteraction
+    namespaceName: VelUtils.VRInteraction
+    className: Climbable
   - hash:
       serializedVersion: 2
       Hash: 63815508dfd6cf329d5c593ac8e76888
@@ -215,6 +265,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnPointerUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: VelUtils
+    namespaceName: VelUtils
+    className: VRObject
   - hash:
       serializedVersion: 2
       Hash: ce670371265af50e12cc59c9b9e94af9
@@ -241,6 +297,12 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
+      Hash: cddfb716eec49c47f4dafd8b5a806e18
+    assemblyName: VelUtils.VRInteraction
+    namespaceName: VelUtils.VRInteraction
+    className: VRDial
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -257,6 +319,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 034f61caadd8b19061dd629abcee6bf2
+    assemblyName: WorldMouse
+    namespaceName: 
+    className: ColliderWorldMouse
   - hash:
       serializedVersion: 2
       Hash: 684b06ef3de8cea5fbf767704db4f3e4
@@ -307,6 +375,12 @@ ScriptsOnlyBuild:
     className: GraphicRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 8aa12e219745622a7fbe99655ee2d9ea
+    assemblyName: VelUtils
+    namespaceName: VelUtils
+    className: CopyTransform
+  - hash:
+      serializedVersion: 2
       Hash: 34fa63a30926bcf55d7323dae76be890
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -355,10 +429,22 @@ ScriptsOnlyBuild:
     className: UnityOnDropdownValueChangedMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 824dcd14cb0fb4efb19a2974de6ac720
+    assemblyName: VelUtils.VRInteraction
+    namespaceName: VelUtils.VRInteraction
+    className: VRDialAdjuster
+  - hash:
+      serializedVersion: 2
       Hash: f2a98ff44eae2937f49b66c5ac80892b
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.OnScreen
     className: OnScreenButton
+  - hash:
+      serializedVersion: 2
+      Hash: 4126a3b1e11bd23043b9dd515d2ab198
+    assemblyName: VelUtils.VRInteraction
+    namespaceName: VelUtils.VRInteraction
+    className: VRPhysicalButton
   - hash:
       serializedVersion: 2
       Hash: a4d905db69ca7f45f45458ae380fb66f
@@ -367,10 +453,10 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
-      Hash: 0b7995e6c59201aa9b4ad6a0aecb4621
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: Button
+      Hash: ebdec2653fbb8f05f30776729d1affe7
+    assemblyName: VelUtils.VRInteraction
+    namespaceName: VelUtils.VRInteraction
+    className: MouseControlsVRGrabbableHand
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -433,6 +519,12 @@ ScriptsOnlyBuild:
     className: UnityOnSelectMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 03f0d44f21a3d8883e5ed1d923a22220
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: VRHand
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -475,10 +567,22 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionExit2DMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 1784daee284a70b9aac84ebc92729a18
+    assemblyName: VelUtils.VRInteraction
+    namespaceName: VelUtils.VRInteraction
+    className: VRPointForceGrabbable
+  - hash:
+      serializedVersion: 2
       Hash: 564e3353668a8439b243a60cf9926d84
     assemblyName: Unity.XR.Management
     namespaceName: UnityEngine.XR.Management
     className: XRManagerSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 4d6f6065e2acb08e9bed258d54907a17
+    assemblyName: VelUtils.VRInteraction
+    namespaceName: VelUtils.VRInteraction
+    className: VRGrabbableHand
   - hash:
       serializedVersion: 2
       Hash: f6831ac80ec81c5d5b370c0ed0fee997
@@ -503,6 +607,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnPointerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: VelUtils
+    namespaceName: VelUtils
+    className: PlayerPrefsJson
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -583,6 +693,18 @@ ScriptsOnlyBuild:
     className: RectMask2D
   - hash:
       serializedVersion: 2
+      Hash: daa4d7537904494394a5a300cc759884
+    assemblyName: WorldMouse
+    namespaceName: VelUtils.Interaction.WorldMouse
+    className: WorldMouseInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 8db37b33e185b1f01b5d71c481fb999c
+    assemblyName: VelUtils
+    namespaceName: VelUtils.Interaction
+    className: CollisionSound
+  - hash:
+      serializedVersion: 2
       Hash: dd7365d011fb5975838f523fc9b1668a
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -593,6 +715,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnJointBreak2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9793d0e7ebae37d93c2b9d9d52982764
+    assemblyName: VelUtils.VRInteraction
+    namespaceName: VelUtils.VRInteraction
+    className: VRSlider
   - hash:
       serializedVersion: 2
       Hash: f6831ac80ec81c5d5b370c0ed0fee997
@@ -625,6 +753,12 @@ ScriptsOnlyBuild:
     className: UnityOnCancelMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 4a0a2274a1a3a963eefb335cc060093a
+    assemblyName: VelUtils
+    namespaceName: VelUtils
+    className: AdjustPos
+  - hash:
+      serializedVersion: 2
       Hash: 440a5aaa10af4960b299f36ab6d903e5
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.Editor
@@ -641,6 +775,30 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnPointerClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: VelUtils
+    namespaceName: VelUtils
+    className: DontDestroyOnLoad
+  - hash:
+      serializedVersion: 2
+      Hash: f05f0d3ed2ef3a122cfd4acb91bc4c3c
+    assemblyName: VelUtils
+    namespaceName: VelUtils
+    className: UploadLogsUI
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: VelUtils
+    namespaceName: VelUtils
+    className: InputModuleXR
+  - hash:
+      serializedVersion: 2
+      Hash: 84c8d15cd17d4f9dca9065f7876c45df
+    assemblyName: VelUtils
+    namespaceName: VelUtils
+    className: SaveComponent
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -686,6 +844,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: VelUtils
+    namespaceName: VelUtils
+    className: InputModuleUnity
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTransformChildrenChangedMessageListener
@@ -695,6 +859,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.XR.LegacyInputHelpers
     namespaceName: UnityEditor.XR.LegacyInputHelpers
     className: CameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 78513b52ec744d73ec24e306e649f0bc
+    assemblyName: VelUtils
+    namespaceName: VelUtils
+    className: Logger
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -745,10 +915,22 @@ ScriptsOnlyBuild:
     className: OculusRestarter
   - hash:
       serializedVersion: 2
+      Hash: 901f35ac2fd230ff8cb322acf6d4850e
+    assemblyName: VelUtils
+    namespaceName: VelUtils
+    className: Rig
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: GlobalMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 2a97eba60772ba15c5f6c10f97e6121f
+    assemblyName: VelUtils.VRInteraction
+    namespaceName: VelUtils.VRInteraction
+    className: VRLocalConstrainedMoveable
   - hash:
       serializedVersion: 2
       Hash: 41ac98c9880a6f3758ca69dbaa1e7777
@@ -773,6 +955,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: bf8c8d038f608fbff30c7c3ca81088e4
+    assemblyName: VelUtils
+    namespaceName: VelUtils
+    className: ControllerHelp
   - hash:
       serializedVersion: 2
       Hash: 1b4a83f2a2f1a4def12cdc9223cce72c
@@ -811,6 +999,12 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
+      Hash: 29b6d8521e1ae62fde5704b180190b61
+    assemblyName: VelUtils.VRInteraction
+    namespaceName: VelUtils.VRInteraction
+    className: VRHingeDial
+  - hash:
+      serializedVersion: 2
       Hash: 654cebef8aa88cb6cd0504505364d614
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.Editor
@@ -829,10 +1023,10 @@ ScriptsOnlyBuild:
     className: PlayerInputManagerEditor
   - hash:
       serializedVersion: 2
-      Hash: 6a356b04c25c0bb008c1b24bf8b0f996
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: CanvasScaler
+      Hash: 707a45f2fec0719f2f3fb380771851c1
+    assemblyName: VelUtils.VRInteraction
+    namespaceName: VelUtils.VRInteraction
+    className: VRMoveableButOnceItsStuckInTheGroundItsADial
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -853,16 +1047,34 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
+      Hash: dbe925765476544d023151d289073b81
+    assemblyName: VelUtils
+    namespaceName: VelUtils
+    className: SaveLoc
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseUpAsButtonMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 7d588b82ba364755d7a08fc9a16e8aa7
+    assemblyName: VelUtils
+    namespaceName: VelUtils
+    className: InputManTester
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 61cce6bade4b9168b0100f35c6d1f1b7
+    assemblyName: WorldMouse
+    namespaceName: VelUtils.Interaction.WorldMouse
+    className: FingerWorldMouse
   - hash:
       serializedVersion: 2
       Hash: 751d867553f413cde86fe5db0b02780d
@@ -899,6 +1111,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.EnhancedTouch
     className: TouchSimulation
+  - hash:
+      serializedVersion: 2
+      Hash: bb25ec165d2469da93ce58e1ecff865d
+    assemblyName: VelUtils
+    namespaceName: 
+    className: DisableOnPlatforms
   - hash:
       serializedVersion: 2
       Hash: 76189544fcf61e781ed0054843b326c7
@@ -968,6 +1186,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: WorldMouse
+    namespaceName: 
+    className: WorldMouseFindCanvasesOnEnable
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.XR.Oculus
     namespaceName: Unity.XR.Oculus
     className: OculusLoader
@@ -989,6 +1213,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: BasicPlayableBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: f5e878a4bd50b1a3125e9b70eb28587c
+    assemblyName: WorldMouse
+    namespaceName: 
+    className: WorldMouseVibrations
   - hash:
       serializedVersion: 2
       Hash: 34096a327d779b7c96a3e390f3559143
@@ -1063,6 +1293,12 @@ ScriptsOnlyBuild:
     className: Dropdown
   - hash:
       serializedVersion: 2
+      Hash: e5732bc588d79287ee91ea5eaddcf3c7
+    assemblyName: WorldMouse
+    namespaceName: VelUtils.Interaction.WorldMouse
+    className: WorldMouseWithLaser
+  - hash:
+      serializedVersion: 2
       Hash: be140ea01a11255b651c097661ac55b1
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -1091,6 +1327,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: VelUtils
+    namespaceName: 
+    className: XRSetFloorHeight
+  - hash:
+      serializedVersion: 2
+      Hash: 13da33f3d4f8409f89fcd06cdbc5d8b2
+    assemblyName: VelUtils
+    namespaceName: VelUtils
+    className: Movement
   - hash:
       serializedVersion: 2
       Hash: 826d70cde3b432cc20561321ec0e2fb3
@@ -1129,6 +1377,12 @@ ScriptsOnlyBuild:
     className: UnityOnMouseOverMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 6c657342519ecb141c2b78295942be60
+    assemblyName: VelUtils
+    namespaceName: VelUtils
+    className: PlayerLogger
+  - hash:
+      serializedVersion: 2
       Hash: f6831ac80ec81c5d5b370c0ed0fee997
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1157,6 +1411,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: aadfd3249c2bfb72e6ee75cef395c7ae
+    assemblyName: WorldMouse
+    namespaceName: VelUtils.Interaction.WorldMouse
+    className: CursorWorldMouse
   - hash:
       serializedVersion: 2
       Hash: afe1800287c9574079eab3fea2622416
@@ -1199,264 +1459,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 03f0d44f21a3d8883e5ed1d923a22220
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: VRHand
-  - hash:
-      serializedVersion: 2
-      Hash: 78513b52ec744d73ec24e306e649f0bc
-    assemblyName: VelUtils
-    namespaceName: VelUtils
-    className: Logger
-  - hash:
-      serializedVersion: 2
-      Hash: 440c8dffc65a97ee03753529a5c85f8a
-    assemblyName: WorldMouse
-    namespaceName: VelUtils.Interaction.WorldMouse
-    className: WorldMouse
-  - hash:
-      serializedVersion: 2
-      Hash: ebdec2653fbb8f05f30776729d1affe7
-    assemblyName: VelUtils.VRInteraction
-    namespaceName: VelUtils.VRInteraction
-    className: MouseControlsVRGrabbableHand
-  - hash:
-      serializedVersion: 2
-      Hash: daa4d7537904494394a5a300cc759884
-    assemblyName: WorldMouse
-    namespaceName: VelUtils.Interaction.WorldMouse
-    className: WorldMouseInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 8aa12e219745622a7fbe99655ee2d9ea
-    assemblyName: VelUtils
-    namespaceName: VelUtils
-    className: CopyTransform
-  - hash:
-      serializedVersion: 2
-      Hash: aadfd3249c2bfb72e6ee75cef395c7ae
-    assemblyName: WorldMouse
-    namespaceName: VelUtils.Interaction.WorldMouse
-    className: CursorWorldMouse
-  - hash:
-      serializedVersion: 2
-      Hash: 84c8d15cd17d4f9dca9065f7876c45df
-    assemblyName: VelUtils
-    namespaceName: VelUtils
-    className: SaveComponent
-  - hash:
-      serializedVersion: 2
-      Hash: 61cce6bade4b9168b0100f35c6d1f1b7
-    assemblyName: WorldMouse
-    namespaceName: VelUtils.Interaction.WorldMouse
-    className: FingerWorldMouse
-  - hash:
-      serializedVersion: 2
-      Hash: 6c657342519ecb141c2b78295942be60
-    assemblyName: VelUtils
-    namespaceName: VelUtils
-    className: PlayerLogger
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: VelUtils
-    namespaceName: VelUtils
-    className: PlayerPrefsJson
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: VelUtils
-    namespaceName: 
-    className: XRSetFloorHeight
-  - hash:
-      serializedVersion: 2
-      Hash: 4126a3b1e11bd23043b9dd515d2ab198
-    assemblyName: VelUtils.VRInteraction
-    namespaceName: VelUtils.VRInteraction
-    className: VRPhysicalButton
-  - hash:
-      serializedVersion: 2
-      Hash: bf8c8d038f608fbff30c7c3ca81088e4
-    assemblyName: VelUtils
-    namespaceName: VelUtils
-    className: ControllerHelp
-  - hash:
-      serializedVersion: 2
-      Hash: cddfb716eec49c47f4dafd8b5a806e18
-    assemblyName: VelUtils.VRInteraction
-    namespaceName: VelUtils.VRInteraction
-    className: VRDial
-  - hash:
-      serializedVersion: 2
-      Hash: 707a45f2fec0719f2f3fb380771851c1
-    assemblyName: VelUtils.VRInteraction
-    namespaceName: VelUtils.VRInteraction
-    className: VRMoveableButOnceItsStuckInTheGroundItsADial
-  - hash:
-      serializedVersion: 2
-      Hash: 5c30150dbc0dc1643d835176a7189882
-    assemblyName: VelUtils
-    namespaceName: VelUtils
-    className: InputMan
-  - hash:
-      serializedVersion: 2
-      Hash: e5732bc588d79287ee91ea5eaddcf3c7
-    assemblyName: WorldMouse
-    namespaceName: VelUtils.Interaction.WorldMouse
-    className: WorldMouseWithLaser
-  - hash:
-      serializedVersion: 2
-      Hash: 034f61caadd8b19061dd629abcee6bf2
-    assemblyName: WorldMouse
-    namespaceName: 
-    className: ColliderWorldMouse
-  - hash:
-      serializedVersion: 2
-      Hash: 4a0a2274a1a3a963eefb335cc060093a
-    assemblyName: VelUtils
-    namespaceName: VelUtils
-    className: AdjustPos
-  - hash:
-      serializedVersion: 2
-      Hash: 29b6d8521e1ae62fde5704b180190b61
-    assemblyName: VelUtils.VRInteraction
-    namespaceName: VelUtils.VRInteraction
-    className: VRHingeDial
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: VelUtils
-    namespaceName: VelUtils
-    className: InputModuleXR
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: VelUtils
-    namespaceName: VelUtils
-    className: VRObject
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: WorldMouse
-    namespaceName: 
-    className: WorldMouseFindCanvasesOnEnable
-  - hash:
-      serializedVersion: 2
-      Hash: 1784daee284a70b9aac84ebc92729a18
-    assemblyName: VelUtils.VRInteraction
-    namespaceName: VelUtils.VRInteraction
-    className: VRPointForceGrabbable
-  - hash:
-      serializedVersion: 2
-      Hash: f05f0d3ed2ef3a122cfd4acb91bc4c3c
-    assemblyName: VelUtils
-    namespaceName: VelUtils
-    className: UploadLogsUI
-  - hash:
-      serializedVersion: 2
-      Hash: dbe925765476544d023151d289073b81
-    assemblyName: VelUtils
-    namespaceName: VelUtils
-    className: SaveLoc
-  - hash:
-      serializedVersion: 2
-      Hash: d25ee5dd1a375857c99926dfd41f79cc
-    assemblyName: VelUtils.VRInteraction
-    namespaceName: VelUtils.VRInteraction
-    className: VRMoveable
-  - hash:
-      serializedVersion: 2
-      Hash: bb25ec165d2469da93ce58e1ecff865d
-    assemblyName: VelUtils
-    namespaceName: 
-    className: DisableOnPlatforms
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: VelUtils
-    namespaceName: VelUtils
-    className: DontDestroyOnLoad
-  - hash:
-      serializedVersion: 2
-      Hash: 7d588b82ba364755d7a08fc9a16e8aa7
-    assemblyName: VelUtils
-    namespaceName: VelUtils
-    className: InputManTester
-  - hash:
-      serializedVersion: 2
-      Hash: 824dcd14cb0fb4efb19a2974de6ac720
-    assemblyName: VelUtils.VRInteraction
-    namespaceName: VelUtils.VRInteraction
-    className: VRDialAdjuster
-  - hash:
-      serializedVersion: 2
-      Hash: 8db37b33e185b1f01b5d71c481fb999c
-    assemblyName: VelUtils
-    namespaceName: VelUtils.Interaction
-    className: CollisionSound
-  - hash:
-      serializedVersion: 2
-      Hash: f5e878a4bd50b1a3125e9b70eb28587c
-    assemblyName: WorldMouse
-    namespaceName: 
-    className: WorldMouseVibrations
-  - hash:
-      serializedVersion: 2
-      Hash: 2a97eba60772ba15c5f6c10f97e6121f
-    assemblyName: VelUtils.VRInteraction
-    namespaceName: VelUtils.VRInteraction
-    className: VRLocalConstrainedMoveable
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: VelUtils
-    namespaceName: VelUtils
-    className: InputModuleUnity
-  - hash:
-      serializedVersion: 2
-      Hash: 4c22890dbdb707b8a946a470cc71aedb
-    assemblyName: VelUtils.VRInteraction
-    namespaceName: VelUtils.VRInteraction
-    className: VRGrabbableJustSendEvent
-  - hash:
-      serializedVersion: 2
-      Hash: 9793d0e7ebae37d93c2b9d9d52982764
-    assemblyName: VelUtils.VRInteraction
-    namespaceName: VelUtils.VRInteraction
-    className: VRSlider
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: VelUtils
-    namespaceName: VelUtils
-    className: ControllerHelpTester
-  - hash:
-      serializedVersion: 2
-      Hash: 901f35ac2fd230ff8cb322acf6d4850e
-    assemblyName: VelUtils
-    namespaceName: VelUtils
-    className: Rig
-  - hash:
-      serializedVersion: 2
-      Hash: 4d6f6065e2acb08e9bed258d54907a17
-    assemblyName: VelUtils.VRInteraction
-    namespaceName: VelUtils.VRInteraction
-    className: VRGrabbableHand
-  - hash:
-      serializedVersion: 2
-      Hash: 13da33f3d4f8409f89fcd06cdbc5d8b2
-    assemblyName: VelUtils
-    namespaceName: VelUtils
-    className: Movement
-  - hash:
-      serializedVersion: 2
-      Hash: 54d1b6018bcebf5d43b41f7e1a85c343
-    assemblyName: VelUtils.VRInteraction
-    namespaceName: VelUtils.VRInteraction
-    className: Climbable
   platform: 13
   scenePathNames:
   - Assets/Scenes/demo5Scene.unity
