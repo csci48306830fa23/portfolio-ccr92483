@@ -1,5 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - bulletSpawner
+    - bullets
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
@@ -31,6 +34,8 @@ ScriptsOnlyBuild:
     - XRSetFloorHeight
   serializedClasses:
     Unity.InputSystem:
+    - UnityEngine.InputSystem.InputAction
+    - UnityEngine.InputSystem.InputBinding
     - UnityEngine.InputSystem.InputSettings/iOSSettings
     - UnityEngine.InputSystem.iOS.PrivacyDataUsage
     VelUtils:
@@ -79,15 +84,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 20332}
     - Class: 114
-      Script: {instanceID: 20518}
+      Script: {instanceID: 20404}
     - Class: 114
-      Script: {instanceID: 22996}
+      Script: {instanceID: 20520}
     - Class: 114
-      Script: {instanceID: 23058}
+      Script: {instanceID: 23000}
     - Class: 114
-      Script: {instanceID: 55964}
+      Script: {instanceID: 23062}
     - Class: 114
-      Script: {instanceID: 55966}
+      Script: {instanceID: 23612}
+    - Class: 114
+      Script: {instanceID: 37026}
+    - Class: 114
+      Script: {instanceID: 37028}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -885,6 +894,12 @@ ScriptsOnlyBuild:
     className: BaseInputOverride
   - hash:
       serializedVersion: 2
+      Hash: 92ad0be9ad3e916017ffaeea28b0a96c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: bulletSpawner
+  - hash:
+      serializedVersion: 2
       Hash: 6237f92becd6162fa105361ab9ce2a00
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -1039,6 +1054,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: shoot
   - hash:
       serializedVersion: 2
       Hash: 46ffbaea01259c5c7ee677afefd93ea8
@@ -1417,6 +1438,12 @@ ScriptsOnlyBuild:
     assemblyName: WorldMouse
     namespaceName: VelUtils.Interaction.WorldMouse
     className: CursorWorldMouse
+  - hash:
+      serializedVersion: 2
+      Hash: 3c08885c4bc4982eb231aceb51024ec5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: bullets
   - hash:
       serializedVersion: 2
       Hash: afe1800287c9574079eab3fea2622416

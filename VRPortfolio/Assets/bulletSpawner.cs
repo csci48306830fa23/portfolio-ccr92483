@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class bulletSpawner : MonoBehaviour
 {
@@ -11,12 +12,15 @@ public class bulletSpawner : MonoBehaviour
     [SerializeField]
     Transform rayOrigin;
 
+    [SerializeField]
+    InputAction fireAction;
+
     RaycastHit hit;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        fireAction.Enable();
     }
 
     private void FixedUpdate()
@@ -24,12 +28,13 @@ public class bulletSpawner : MonoBehaviour
         if (Physics.Raycast(rayOrigin.position, rayOrigin.forward, out hit))
         {
             Debug.DrawRay(rayOrigin.position, rayOrigin.forward * hit.distance, Color.red);
+            Debug.Log(rayOrigin.position);
 
-            if (Input.GetKey(KeyCode.Space))
+            fireAction.performed += (obj) =>
             {
 
                 // pewpew = gun noise 
-                bullets pewpew = GameObject.Instantiate(bulletsPrefab);
+                bullets pewpew = GameObject.Instantiate(bulletsPrefab, rayOrigin.position, rayOrigin.rotation);
                 Rigidbody rb = pewpew.GetComponent<Rigidbody>();
                 Debug.Log(hit.distance);
 
@@ -40,7 +45,7 @@ public class bulletSpawner : MonoBehaviour
                 if (hit.distance < 2)
                 {
                     rb.velocity = new Vector3(0f, 3f, 3f);
-                    
+
                 }
 
                 if (hit.distance > 2 && hit.distance < 4)
@@ -62,7 +67,7 @@ public class bulletSpawner : MonoBehaviour
                 {
                     rb.velocity = new Vector3(0f, 2f, 20f);
                 }
-            }
+            };
 
         }
     }
@@ -70,6 +75,6 @@ public class bulletSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+       // Vector3 currentPosition = 
     }
 }
