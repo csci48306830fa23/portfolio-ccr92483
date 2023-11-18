@@ -58,15 +58,17 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.7f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\shoot.cs" />
     <Compile Include="Assets\Scripts\triggerScript.cs" />
     <Compile Include="Assets\Scripts\SpawnedObject.cs" />
     <Compile Include="Assets\Scripts\demo4Scene.cs" />
     <Compile Include="Assets\Scripts\spawnerExample.cs" />
+    <Compile Include="Assets\bullets.cs" />
     <Compile Include="Assets\Scripts\SpawnedCube.cs" />
     <Compile Include="Assets\Scripts\VRHand.cs" />
     <Compile Include="Assets\Scripts\SpawnedCapsule.cs" />
-    <Compile Include="Assets\laserBeam.cs" />
     <Compile Include="Assets\Scripts\SpawnedSphere.cs" />
+    <Compile Include="Assets\bulletSpawner.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
