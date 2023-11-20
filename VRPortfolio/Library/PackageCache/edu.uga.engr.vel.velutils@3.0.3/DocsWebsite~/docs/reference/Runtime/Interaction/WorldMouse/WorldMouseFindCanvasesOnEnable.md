@@ -1,6 +1,0 @@
-# WorldMouseFindCanvasesOnEnable.cs
-
-## WorldMouseFindCanvasesOnEnable
-
-
-

@@ -1,6 +1,0 @@
-# VRLocalConstrainedMoveable.cs
-
-## VRLocalConstrainedMoveable
-
-
-

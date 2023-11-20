@@ -1,6 +1,0 @@
-# InputManTester.cs
-
-## InputManTester
-
-
-

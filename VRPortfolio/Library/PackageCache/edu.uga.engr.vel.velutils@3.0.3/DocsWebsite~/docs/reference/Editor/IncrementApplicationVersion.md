@@ -1,6 +1,0 @@
-# IncrementApplicationVersion.cs
-
-## IncrementApplicationVersion
-
-
-

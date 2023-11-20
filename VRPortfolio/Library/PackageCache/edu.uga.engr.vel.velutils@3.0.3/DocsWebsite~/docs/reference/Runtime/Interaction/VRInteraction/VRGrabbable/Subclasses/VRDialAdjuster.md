@@ -1,6 +1,0 @@
-# VRDialAdjuster.cs
-
-## VRDialAdjuster
-
-
-

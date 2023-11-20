@@ -1,6 +1,0 @@
-# Climbable.cs
-
-## Climbable
-
-
-

@@ -1,6 +1,0 @@
-# FingerWorldMouse.cs
-
-## FingerWorldMouse
-
-
-

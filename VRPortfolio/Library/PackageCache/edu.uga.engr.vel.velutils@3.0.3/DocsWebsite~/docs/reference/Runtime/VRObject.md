@@ -1,6 +1,0 @@
-# VRObject.cs
-
-## VRObject
-
-
-

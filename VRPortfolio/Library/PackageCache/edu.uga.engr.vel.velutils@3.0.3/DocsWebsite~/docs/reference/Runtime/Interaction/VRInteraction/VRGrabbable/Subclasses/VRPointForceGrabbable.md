@@ -1,6 +1,0 @@
-# VRPointForceGrabbable.cs
-
-## VRPointForceGrabbable
-
-
-

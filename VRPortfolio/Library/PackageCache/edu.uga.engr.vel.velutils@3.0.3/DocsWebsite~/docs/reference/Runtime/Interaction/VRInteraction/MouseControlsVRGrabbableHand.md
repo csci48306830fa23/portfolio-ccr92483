@@ -1,6 +1,0 @@
-# MouseControlsVRGrabbableHand.cs
-
-## MouseControlsVRGrabbableHand
-
-
-

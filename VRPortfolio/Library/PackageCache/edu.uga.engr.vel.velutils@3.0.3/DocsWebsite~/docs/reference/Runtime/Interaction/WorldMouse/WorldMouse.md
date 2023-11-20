@@ -1,6 +1,0 @@
-# WorldMouse.cs
-
-## WorldMouse
-
-
-

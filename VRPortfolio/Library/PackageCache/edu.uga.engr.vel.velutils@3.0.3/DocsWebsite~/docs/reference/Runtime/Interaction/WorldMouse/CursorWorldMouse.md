@@ -1,6 +1,0 @@
-# CursorWorldMouse.cs
-
-## CursorWorldMouse
-
-
-

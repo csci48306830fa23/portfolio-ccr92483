@@ -1,6 +1,0 @@
-# ColliderWorldMouse.cs
-
-## ColliderWorldMouse
-
-
-

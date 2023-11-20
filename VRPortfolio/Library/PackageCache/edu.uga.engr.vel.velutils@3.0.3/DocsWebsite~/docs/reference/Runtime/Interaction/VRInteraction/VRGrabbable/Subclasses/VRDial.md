@@ -1,6 +1,0 @@
-# VRDial.cs
-
-## VRDial
-
-Spins 🔄
-
