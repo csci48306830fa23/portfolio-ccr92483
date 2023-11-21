@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngineInternal;
 
 public class bulletSpawner : MonoBehaviour
 {
@@ -15,20 +16,34 @@ public class bulletSpawner : MonoBehaviour
     [SerializeField]
     InputAction fireAction;
 
+    private LineRenderer lineRenderer;
+    private 
+
     RaycastHit hit;
 
     // Start is called before the first frame update
     void Start()
     {
         fireAction.Enable();
+
+        lineRenderer = gameObject.AddComponent<LineRenderer>();
+        lineRenderer.startWidth = 0.02f;
+        lineRenderer.endWidth = 0.02f;
+        lineRenderer.material.color = Color.red;
     }
 
     private void FixedUpdate()
     {
+
+        lineRenderer.SetPosition(0, new Vector3(0, 0, 0));
+        lineRenderer.SetPosition(1, new Vector3(0, 0, 0));
+
         if (Physics.Raycast(rayOrigin.position, rayOrigin.forward, out hit))
         {
             Debug.DrawRay(rayOrigin.position, rayOrigin.forward * hit.distance, Color.red);
-            Debug.Log(rayOrigin.position);
+            //Debug.Log(rayOrigin.position.x);
+            lineRenderer.SetPosition(0, rayOrigin.position);
+            lineRenderer.SetPosition(1, rayOrigin.forward * 10f);
 
             fireAction.performed += (obj) =>
             {
@@ -38,35 +53,41 @@ public class bulletSpawner : MonoBehaviour
                 Rigidbody rb = pewpew.GetComponent<Rigidbody>();
                 Debug.Log(hit.distance);
 
-                if (hit.distance < 2)
+                if (hit.distance <= 0)
                 {
-                    Debug.Log(hit.distance);
+                    rb.velocity = new Vector3(0f, 2f, 5f);
                 }
-                if (hit.distance < 2)
+                if (hit.distance < 2 && hit.distance > 0) 
                 {
-                    rb.velocity = new Vector3(0f, 3f, 3f);
+                    rb.velocity = (hit.point - rayOrigin.position).normalized * 10;
+                    Debug.Log("1");
 
-                }
-
+                } 
+                
                 if (hit.distance > 2 && hit.distance < 4)
                 {
-                    rb.velocity = new Vector3(0f, 4f, 5f);
+                    rb.velocity = (hit.point - rayOrigin.position).normalized * 20;
+                    Debug.Log("2");
                 }
 
                 if (hit.distance > 4 && hit.distance < 6)
                 {
-                    rb.velocity = new Vector3(0f, 4f, 7f);
+                    rb.velocity = (hit.point - rayOrigin.position).normalized * 30;
+                    Debug.Log("3");
                 }
 
                 if (hit.distance > 6 && hit.distance < 8)
                 {
-                    rb.velocity = new Vector3(0f, 4f, 9f);
+                    rb.velocity = (hit.point - rayOrigin.position).normalized * 40;
+                    Debug.Log("4");
                 }
 
-                if (hit.distance > 8 && hit.distance < 10)
+                if (hit.distance > 8 && hit.distance < 11)
                 {
-                    rb.velocity = new Vector3(0f, 2f, 20f);
+                    rb.velocity = (hit.point - rayOrigin.position).normalized * 50;
+                    Debug.Log("5");
                 }
+
             };
 
         }
@@ -75,6 +96,6 @@ public class bulletSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       // Vector3 currentPosition = 
+        
     }
 }
