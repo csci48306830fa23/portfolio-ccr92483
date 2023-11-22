@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngineInternal;
 
-public class bulletSpawner : MonoBehaviour
+public class bulletSpawner2 : MonoBehaviour
 {
 
     [SerializeField]
@@ -17,6 +17,7 @@ public class bulletSpawner : MonoBehaviour
     InputAction fireAction;
 
     private LineRenderer lineRenderer;
+    private Material bulletMaterial;
 
     RaycastHit hit;
 
@@ -50,6 +51,8 @@ public class bulletSpawner : MonoBehaviour
                 // pewpew = gun noise 
                 bullets pewpew = GameObject.Instantiate(bulletsPrefab, rayOrigin.position, rayOrigin.rotation);
                 Rigidbody rb = pewpew.GetComponent<Rigidbody>();
+                Renderer r = pewpew.GetComponentInChildren<Renderer>();
+                r.material = bulletMaterial;
 
                 Debug.Log(hit.distance);
 
@@ -57,13 +60,13 @@ public class bulletSpawner : MonoBehaviour
                 {
                     rb.velocity = new Vector3(0f, 2f, 5f);
                 }
-                if (hit.distance < 2 && hit.distance > 0) 
+                if (hit.distance < 2 && hit.distance > 0)
                 {
                     rb.velocity = (hit.point - rayOrigin.position).normalized * 10;
                     Debug.Log("1");
 
-                } 
-                
+                }
+
                 if (hit.distance > 2 && hit.distance < 4)
                 {
                     rb.velocity = (hit.point - rayOrigin.position).normalized * 20;
@@ -96,6 +99,8 @@ public class bulletSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        GameObject canvas = GameObject.Find("Canvas");
+        TestGUI testGuiScript = canvas.GetComponent<TestGUI>();
+        bulletMaterial = testGuiScript.sharedMaterial;
     }
 }

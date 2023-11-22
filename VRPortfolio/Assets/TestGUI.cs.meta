@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 888cf6a4eed52cd4f9b9a981a5964cce
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - MetallicBlack: {fileID: 2100000, guid: 3df21df2ce5119c48bd3d0507ec4ee49, type: 2}
+  - MetallicGold: {fileID: 2100000, guid: 1ffc6654bd7099c42bd190bc3dd359fb, type: 2}
+  - MetallicGray: {fileID: 2100000, guid: 0cfdd4479e902864b923c2518f204cce, type: 2}
+  - sharedMaterial: {fileID: 2100000, guid: 3df21df2ce5119c48bd3d0507ec4ee49, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

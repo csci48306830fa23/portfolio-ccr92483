@@ -8,9 +8,10 @@ public class bullets : MonoBehaviour
 
     [SerializeField]
     GameObject spawnPoint;
+
     void Start()
     {
-        
+
     }
 
     private void OnCollisionEnter(Collision collision)
