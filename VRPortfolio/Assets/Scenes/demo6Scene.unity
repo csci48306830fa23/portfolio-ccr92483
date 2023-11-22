@@ -832,7 +832,9 @@ MonoBehaviour:
   MetallicGold: {fileID: 2100000, guid: 1ffc6654bd7099c42bd190bc3dd359fb, type: 2}
   MetallicGray: {fileID: 2100000, guid: 0cfdd4479e902864b923c2518f204cce, type: 2}
   button: {fileID: 1468269695}
+  slider: {fileID: 1596296581}
   sharedMaterial: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  bulletSize: {fileID: 444365055261374305, guid: 33610e910e2274d46a5db73e75cf4c62, type: 3}
 --- !u!1001 &227750646
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3664,10 +3666,22 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.39
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 198440257}
+        m_TargetAssemblyTypeName: TestGUI, Assembly-CSharp
+        m_MethodName: sliderMoved
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1609454592
 GameObject:
   m_ObjectHideFlags: 0

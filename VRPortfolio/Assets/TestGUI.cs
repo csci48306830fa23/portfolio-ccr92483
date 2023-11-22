@@ -15,14 +15,18 @@ public class TestGUI : MonoBehaviour
     Material MetallicGray;
     [SerializeField]
     Button button;
+    [SerializeField]
+    Slider slider;
 
     public Material sharedMaterial;
     public static int track;
+    public Transform bulletSize;
 
     // Start is called before the first frame update
     void Start()
     {
         sharedMaterial = MetallicGold;
+        bulletSize.localScale = new Vector3(0.02f, 0.02f, 0.02f);
         track = 0;
     }
 
@@ -36,7 +40,6 @@ public class TestGUI : MonoBehaviour
     {
 
         TextMeshProUGUI buttonText = button.GetComponentInChildren<TextMeshProUGUI>();
-        Debug.Log(buttonText.text);
 
         if (sharedMaterial == MetallicBlack && track == 0)
         {
@@ -60,5 +63,13 @@ public class TestGUI : MonoBehaviour
 
         track = 0; 
 
+    }
+
+    public void sliderMoved()
+    {
+        if (slider.value >= 0.1) {
+            Debug.Log(slider.value);
+            bulletSize.localScale = new Vector3(slider.value * .05f, slider.value * .05f, slider.value * .05f);
+        }
     }
 }

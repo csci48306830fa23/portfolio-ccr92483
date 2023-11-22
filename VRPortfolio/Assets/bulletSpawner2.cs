@@ -18,6 +18,7 @@ public class bulletSpawner2 : MonoBehaviour
 
     private LineRenderer lineRenderer;
     private Material bulletMaterial;
+    private Transform importedSize;
 
     RaycastHit hit;
 
@@ -50,6 +51,8 @@ public class bulletSpawner2 : MonoBehaviour
 
                 // pewpew = gun noise 
                 bullets pewpew = GameObject.Instantiate(bulletsPrefab, rayOrigin.position, rayOrigin.rotation);
+                Transform size = pewpew.GetComponent<Transform>();
+                size.localScale = importedSize.localScale;
                 Rigidbody rb = pewpew.GetComponent<Rigidbody>();
                 Renderer r = pewpew.GetComponentInChildren<Renderer>();
                 r.material = bulletMaterial;
@@ -102,5 +105,6 @@ public class bulletSpawner2 : MonoBehaviour
         GameObject canvas = GameObject.Find("Canvas");
         TestGUI testGuiScript = canvas.GetComponent<TestGUI>();
         bulletMaterial = testGuiScript.sharedMaterial;
+        importedSize = testGuiScript.bulletSize;
     }
 }
