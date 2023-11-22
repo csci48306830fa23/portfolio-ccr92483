@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngineInternal;
@@ -16,9 +17,13 @@ public class bulletSpawner2 : MonoBehaviour
     [SerializeField]
     InputAction fireAction;
 
+    [SerializeField]
+    capsuleBullets capsuleBulletsPrefab;
+
     private LineRenderer lineRenderer;
     private Material bulletMaterial;
     private Transform importedSize;
+    private int objType;
 
     RaycastHit hit;
 
@@ -48,14 +53,29 @@ public class bulletSpawner2 : MonoBehaviour
 
             fireAction.performed += (obj) =>
             {
+                Transform size;
+                Rigidbody rb;
+                Renderer r;
 
+                if (objType == 0)
+                {
+                    // pewpew = gun noise
+                    bullets pewpew = GameObject.Instantiate(bulletsPrefab, rayOrigin.position, rayOrigin.rotation);
+                    size = pewpew.GetComponent<Transform>();
+                    size.localScale = importedSize.localScale;
+                    rb = pewpew.GetComponent<Rigidbody>();
+                    r = pewpew.GetComponentInChildren<Renderer>();
+                    r.material = bulletMaterial;
+                } else
+                {
+                    capsuleBullets pewpew = GameObject.Instantiate(capsuleBulletsPrefab, rayOrigin.position, capsuleBulletsPrefab.GetComponentInChildren<Transform>().rotation);
+                    size = pewpew.GetComponent<Transform>();
+                    size.localScale = importedSize.localScale;
+                    rb = pewpew.GetComponent<Rigidbody>();
+                    r = pewpew.GetComponentInChildren<Renderer>();
+                    r.material = bulletMaterial;
+                }
                 // pewpew = gun noise 
-                bullets pewpew = GameObject.Instantiate(bulletsPrefab, rayOrigin.position, rayOrigin.rotation);
-                Transform size = pewpew.GetComponent<Transform>();
-                size.localScale = importedSize.localScale;
-                Rigidbody rb = pewpew.GetComponent<Rigidbody>();
-                Renderer r = pewpew.GetComponentInChildren<Renderer>();
-                r.material = bulletMaterial;
 
                 Debug.Log(hit.distance);
 
@@ -106,5 +126,6 @@ public class bulletSpawner2 : MonoBehaviour
         TestGUI testGuiScript = canvas.GetComponent<TestGUI>();
         bulletMaterial = testGuiScript.sharedMaterial;
         importedSize = testGuiScript.bulletSize;
+        objType = testGuiScript.type;
     }
 }

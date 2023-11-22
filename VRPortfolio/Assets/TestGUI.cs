@@ -21,6 +21,7 @@ public class TestGUI : MonoBehaviour
     public Material sharedMaterial;
     public static int track;
     public Transform bulletSize;
+    public int type;
 
     // Start is called before the first frame update
     void Start()
@@ -70,6 +71,17 @@ public class TestGUI : MonoBehaviour
         if (slider.value >= 0.1) {
             Debug.Log(slider.value);
             bulletSize.localScale = new Vector3(slider.value * .05f, slider.value * .05f, slider.value * .05f);
+        }
+    }
+
+    public void optionSelected()
+    {
+        if (type == 0)
+        {
+            type = 1;
+        } else
+        {
+            type = 0;
         }
     }
 }
