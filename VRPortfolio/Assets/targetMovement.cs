@@ -17,6 +17,7 @@ public class targetMovement : MonoBehaviour
     void Start()
     {
         target1RP = new Vector3(-4.0f, 2.0983f, 9.51f);
+        target1LP = new Vector3(-6.0f, 2.0983f, 9.51f);
         StartCoroutine(slide1());
     }
 
@@ -31,13 +32,22 @@ public class targetMovement : MonoBehaviour
         float startTime = 0f;
         Vector3 startingPos = target1.GetComponent<Transform>().position;
 
-        while (startTime < slideTime)
+        while (true)
         {
-            target1.GetComponent<Transform>().position = Vector3.Lerp(startingPos, target1RP, startTime / slideTime);
-            startTime += Time.deltaTime;
-            yield return null;
+
+            while (startTime < slideTime)
+            {
+                target1.GetComponent<Transform>().position = Vector3.Lerp(startingPos, target1RP, startTime / slideTime);
+                startTime += Time.deltaTime;
+                yield return null;
+            }
+            transform.position = target1RP;
+            startTime = 0f;
+            target1RP = startingPos;
+            startingPos = target1.GetComponent<Transform>().position;
+
+           
         }
-        transform.position = target1RP;
     }
 
 }
